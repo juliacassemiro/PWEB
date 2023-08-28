@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ff3795;
+}
+
+#formulario{
+    margin: 30px, auto;
+    padding: 20px;
+    background-color: #ffa8d2;
+    border: 1px solid #ff3795;
+    border-radius: 10px;
+}
+
+label{
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffe8f3;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    padding: 10px;
+    border: 1px solid #ffe8f3;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+input[type="radio"],
+input[type="checkbox"],
+{
+    margin-right: 5px;
+}
+
+input[type="submit"],
+button[type="reset"],
+button[type="button"]
+{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #ff3795;
+    background-color: #ffe8f3;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+button[type="button"]
+{
+    background-color: #ffe8f3;
+}
+
+select{
+    padding: 10px;
+    border: 1px solid #ffa8d2;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 75%;
+    margin-bottom: 10px;
+    background-image: linear-gradient(to bottom, #ffe8f3, #ff3795);
+}
+
+select:focus{
+    outline: 2px solid #ff3795;
+    background-color: #ffe8f3;
+}
+
+legend{
+    font-size: 20px;
+    font-weight: bold;
+    color #ffe8f3;
+    margin-bottom: 20px;
+}
+
+input:invalid{
+    border: 2px solid red;
+}
+
+#rodape{
+    margin: 0 auto;
+    text-align: center;
+}
